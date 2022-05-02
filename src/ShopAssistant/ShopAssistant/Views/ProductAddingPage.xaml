@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ShopAssistant.Views.ProductAddingPage"
+             Title="Товар">
+    <ContentPage.Content>
+        <StackLayout>
+            <StackLayout Padding="25, 25, 25, 0">
+                <Label
+                    Text="Add new product"
+                    HorizontalOptions="Center"/>
+                <StackLayout HorizontalOptions="Start">
+                    <Entry Text="Название"/>
+                    <Entry Text="Тип"/>
+                    <Entry Text="Цена"/>
+                    <Button
+                        Text="Добавить товар"/>
+                    <Label Text="Осталось средств"/>
+                </StackLayout>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
