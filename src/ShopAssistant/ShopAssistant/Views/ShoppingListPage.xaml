@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ShopAssistant.Views.ShoppingListPage"
+             Title="Список">
+    <ContentPage.Content>
+        <StackLayout>
+            <StackLayout Padding="25, 25, 25, 0">
+                <Grid>
+                    <Label Text="List name" HorizontalOptions="Center"/>
+                </Grid>
+                <Grid HorizontalOptions="Center" VerticalOptions="Start">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+                        <Label
+                            Grid.Column="0"
+                            Grid.Row="0"
+                            HorizontalOptions="Start"
+                            Text="Название"/>
+                        <Label
+                            Grid.Column="1"
+                            Grid.Row="0"
+                            HorizontalOptions="Center"
+                            Text="Тип товара"/>
+                        <Label
+                            HorizontalOptions="End"
+                            Grid.Column="2"
+                            Grid.Row="0"
+                            Text="Цена"/>
+                    
+                    <Label
+                        Text="Кроссовки"
+                        Grid.Column="0"
+                        Grid.Row="1"
+                        HorizontalOptions="Start"/>
+                    <Label
+                        Text="Обувь"
+                        Grid.Column="1"
+                        Grid.Row="1"
+                        HorizontalOptions="Center"/>
+                    <Label
+                        Text="4990"
+                        Grid.Column="2"
+                        Grid.Row="1"
+                        HorizontalOptions="End"/>
+
+                </Grid>
+
+                <StackLayout HorizontalOptions="Start">
+                    <Button
+                        Text="Добавить продукт"/>
+                    <Label Text="Итого: "/>
+                    <Label Text="Бюджет: "/>
+                    <Button Text="Завершить список"/>
+                </StackLayout>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

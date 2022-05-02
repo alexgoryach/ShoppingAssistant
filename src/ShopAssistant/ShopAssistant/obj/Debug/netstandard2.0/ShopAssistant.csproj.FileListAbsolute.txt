@@ -1,0 +1,16 @@
+C:\Documents\Mobile-shopping-assistant\src\ShopAssistant\ShopAssistant\bin\Debug\netstandard2.0\ShopAssistant.deps.json
+C:\Documents\Mobile-shopping-assistant\src\ShopAssistant\ShopAssistant\bin\Debug\netstandard2.0\ShopAssistant.dll
+C:\Documents\Mobile-shopping-assistant\src\ShopAssistant\ShopAssistant\bin\Debug\netstandard2.0\ShopAssistant.pdb
+C:\Documents\Mobile-shopping-assistant\src\ShopAssistant\ShopAssistant\obj\Debug\netstandard2.0\ShopAssistant.csproj.AssemblyReference.cache
+C:\Documents\Mobile-shopping-assistant\src\ShopAssistant\ShopAssistant\obj\Debug\netstandard2.0\ShopAssistant.GeneratedMSBuildEditorConfig.editorconfig
+C:\Documents\Mobile-shopping-assistant\src\ShopAssistant\ShopAssistant\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Documents\Mobile-shopping-assistant\src\ShopAssistant\ShopAssistant\obj\Debug\netstandard2.0\ShopAssistant.AssemblyInfoInputs.cache
+C:\Documents\Mobile-shopping-assistant\src\ShopAssistant\ShopAssistant\obj\Debug\netstandard2.0\ShopAssistant.AssemblyInfo.cs
+C:\Documents\Mobile-shopping-assistant\src\ShopAssistant\ShopAssistant\obj\Debug\netstandard2.0\ShopAssistant.csproj.CoreCompileInputs.cache
+C:\Documents\Mobile-shopping-assistant\src\ShopAssistant\ShopAssistant\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Documents\Mobile-shopping-assistant\src\ShopAssistant\ShopAssistant\obj\Debug\netstandard2.0\ShopAssistant.dll
+C:\Documents\Mobile-shopping-assistant\src\ShopAssistant\ShopAssistant\obj\Debug\netstandard2.0\ShopAssistant.pdb
+C:\Documents\Mobile-shopping-assistant\src\ShopAssistant\ShopAssistant\obj\Debug\netstandard2.0\Views\ListOfShoppingListsPage.xaml.g.cs
+C:\Documents\Mobile-shopping-assistant\src\ShopAssistant\ShopAssistant\obj\Debug\netstandard2.0\Views\MainPage.xaml.g.cs
+C:\Documents\Mobile-shopping-assistant\src\ShopAssistant\ShopAssistant\obj\Debug\netstandard2.0\Views\ProductAddingPage.xaml.g.cs
+C:\Documents\Mobile-shopping-assistant\src\ShopAssistant\ShopAssistant\obj\Debug\netstandard2.0\Views\ShoppingListPage.xaml.g.cs

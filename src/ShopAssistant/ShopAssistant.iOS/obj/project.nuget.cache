@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "73AGy/UcavOaqX1/xtLCKZGtEV7O9NA2tsu+neCdMLDfGvuZWdkErfNa5zEZF6dytF3DsyAsG20Wb1YYbSOdwQ==",
+  "success": true,
+  "projectFilePath": "C:\\Documents\\Mobile-shopping-assistant\\src\\ShopAssistant\\ShopAssistant.iOS\\ShopAssistant.iOS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\gorya\\.nuget\\packages\\xamarin.forms\\5.0.0.2012\\xamarin.forms.5.0.0.2012.nupkg.sha512"
+  ],
+  "logs": []
+}
