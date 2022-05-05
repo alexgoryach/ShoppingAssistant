@@ -1,6 +1,5 @@
 ﻿using System;
 using System.IO;
-using ShopAssistant.Domain;
 using ShopAssistant.Infrastructure.DataAccess;
 using ShopAssistant.Views;
 using Xamarin.Forms;
