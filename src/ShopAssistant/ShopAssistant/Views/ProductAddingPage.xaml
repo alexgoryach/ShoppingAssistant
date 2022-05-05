@@ -7,15 +7,21 @@
         <StackLayout>
             <StackLayout Padding="25, 25, 25, 0">
                 <Label
-                    Text="Add new product"
+                    Text="Добавить новый товар"
                     HorizontalOptions="Center"/>
                 <StackLayout HorizontalOptions="Start">
-                    <Entry Text="Название"/>
-                    <Entry Text="Тип"/>
-                    <Entry Text="Цена"/>
-                    <Button
-                        Text="Добавить товар"/>
-                    <Label Text="Осталось средств"/>
+                    <Label Text="Название"/>
+                    <Entry Text="{Binding Name}"/>
+                    <Label Text="Тип"/>
+                    <Entry Text="{Binding Type}"/>
+                    <Label Text="Цена"/>
+                    <Entry Text="{Binding Price}"/>
+                    <StackLayout Orientation="Horizontal">
+                        <Button Text="Сохранить" Clicked="SaveProduct" />
+                        <Button Text="Удалить" Clicked="DeleteProduct" />
+                        <Button Text="Назад" Clicked="Cancel" />
+                    </StackLayout>
+                    <!--<Label Text="Осталось средств"/>-->
                 </StackLayout>
             </StackLayout>
         </StackLayout>
