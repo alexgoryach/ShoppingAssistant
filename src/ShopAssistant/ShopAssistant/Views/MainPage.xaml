@@ -12,10 +12,10 @@
                 <views:ShoppingListPage />
             </x:Arguments>
         </NavigationPage>
-        <!--<NavigationPage Title="Все списки">
+        <NavigationPage Title="Карта">
             <x:Arguments>
-                <views:ListOfShoppingListsPage />
+                <views:MapPage />
             </x:Arguments>
-        </NavigationPage>-->
+        </NavigationPage>
     </TabbedPage.Children>
 </TabbedPage>

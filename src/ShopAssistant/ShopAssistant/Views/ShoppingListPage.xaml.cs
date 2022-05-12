@@ -5,14 +5,21 @@ using Xamarin.Forms.Xaml;
 
 namespace ShopAssistant.Views
 {
+    /// <summary>
+    /// Page with shopping list.
+    /// </summary>
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class ShoppingListPage : ContentPage
     {
+        /// <summary>
+        /// Constructor.
+        /// </summary>
         public ShoppingListPage()
         {
             InitializeComponent();
-            //BindingContext = new ProductListViewModel() { Navigation = this.Navigation };
         }
+
+        /// <inheritdoc />
         protected override void OnAppearing()
         {
             productsList.ItemsSource = App.Database.GetItems();

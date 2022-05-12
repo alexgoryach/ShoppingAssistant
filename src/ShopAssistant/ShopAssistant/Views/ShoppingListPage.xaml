@@ -7,13 +7,6 @@
         <StackLayout>
             <StackLayout Padding="25, 25, 25, 0">
                 <Label Text="Список покупок"/>
-                <!--<Grid VerticalOptions="StartAndExpand">
-                    <Label 
-                        Text="List name"/>
-                </Grid>-->
-                <!--<ListView ItemsSource="{Binding Products}"
-                          SelectedItem="{Binding SelectedProduct, Mode=TwoWay}"
-                          HasUnevenRows="True">-->
                 <ListView x:Name="productsList"
                           ItemsSource="{Binding}"
                           ItemSelected="OnItemSelected"
@@ -23,10 +16,9 @@
                             <ViewCell>
                                 <ViewCell.View>
                                     <StackLayout Orientation="Horizontal">
-                                        <Label Text="{Binding Name}" FontSize="Medium"/>
-                                        <!--<Label Text="{Binding Name}" FontSize="Medium" />
-                                        <Label Text="{Binding Type}" FontSize="Small" />
-                                        <Label Text="{Binding Price}" FontSize="Small" />-->
+                                        <Label Padding="15,0, 15, 0" Text="{Binding Name}" FontSize="Medium"/>
+                                        <Label Padding="15,0, 15, 0" Text="{Binding Type}" FontSize="Medium" />
+                                        <Label Padding="15,0, 15, 0" Text="{Binding Price}" FontSize="Medium"/>
                                     </StackLayout>
                                 </ViewCell.View>
                             </ViewCell>
@@ -38,9 +30,6 @@
                     <Button
                         Text="Добавить продукт"
                         Clicked="CreateProduct"/>
-                    <!--<Label Text="Итого: "/>
-                    <Label Text="Бюджет: "/>-->
-                    <!--<Button Text="Завершить список"/>-->
                 </StackLayout>
             </StackLayout>
         </StackLayout>

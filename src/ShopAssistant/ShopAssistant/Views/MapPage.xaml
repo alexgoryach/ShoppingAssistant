@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ShopAssistant.Views.MapPage"
+             xmlns:maps="clr-namespace:Xamarin.Forms.Maps;assembly=Xamarin.Forms.Maps">
+    <ContentPage.Content>
+        <StackLayout>
+            <maps:Map>
+                <x:Arguments>
+                    <maps:MapSpan>
+                        <x:Arguments>
+                            <maps:Position>
+                                <x:Arguments>
+                                    <x:Double>56.00470397100182</x:Double>
+                                    <x:Double>92.8008637063896</x:Double>
+                                </x:Arguments>
+                            </maps:Position>
+                            <x:Double>0.01</x:Double>
+                            <x:Double>0.01</x:Double>
+                        </x:Arguments>
+                    </maps:MapSpan>
+                </x:Arguments>
+                <maps:Map.Pins>
+                    <maps:Pin Label="Красный яр"
+                              Address="Akademika Kirenskogo St, 25A, Krasnoyarsk, Krasnoyarsk Krai, 660100"
+                              Type="Place">
+                        <maps:Pin.Position>
+                            <maps:Position>
+                                <x:Arguments>
+                                    <x:Double>56.005205289409105</x:Double>
+                                    <x:Double>92.80074041114217</x:Double>
+                                </x:Arguments>
+                            </maps:Position>
+                        </maps:Pin.Position>
+                    </maps:Pin>
+                </maps:Map.Pins>
+            </maps:Map>
+            <Label x:Name="weatherInfo"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

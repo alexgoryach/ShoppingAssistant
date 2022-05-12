@@ -21,7 +21,6 @@
                         <Button Text="Удалить" Clicked="DeleteProduct" />
                         <Button Text="Назад" Clicked="Cancel" />
                     </StackLayout>
-                    <!--<Label Text="Осталось средств"/>-->
                 </StackLayout>
             </StackLayout>
         </StackLayout>

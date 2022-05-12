@@ -5,18 +5,15 @@ using Xamarin.Forms.Xaml;
 
 namespace ShopAssistant.Views
 {
+    /// <summary>
+    /// Product adding page.
+    /// </summary>
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class ProductAddingPage : ContentPage
     {
-        //public ProductViewModel ViewModel { get; private set; }
-
-        /*public ProductAddingPage(ProductViewModel viewModel)
-        {
-            InitializeComponent();
-            ViewModel = viewModel;
-            this.BindingContext = ViewModel;
-        }*/
-
+        /// <summary>
+        /// Constructor.
+        /// </summary>
         public ProductAddingPage()
         {
             InitializeComponent();

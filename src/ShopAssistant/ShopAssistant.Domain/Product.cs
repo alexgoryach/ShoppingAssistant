@@ -2,6 +2,9 @@ using SQLite;
 
 namespace ShopAssistant.Domain
 {
+    /// <summary>
+    /// Product entity.
+    /// </summary>
     [Table("Products")]
     public class Product
     {

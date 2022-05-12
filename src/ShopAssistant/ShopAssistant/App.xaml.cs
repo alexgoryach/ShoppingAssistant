@@ -9,10 +9,17 @@ using Xamarin.Forms.Xaml;
 
 namespace ShopAssistant
 {
+    /// <summary>
+    /// Application class.
+    /// </summary>
     public partial class App : Application
     {
-        public const string DATABASE_NAME = "products.db";
-        public static ProductRepository database;
+        private const string DATABASE_NAME = "products.db";
+        private static ProductRepository database;
+
+        /// <summary>
+        /// Product repository.
+        /// </summary>
         public static ProductRepository Database
         {
             get
@@ -26,25 +33,29 @@ namespace ShopAssistant
                 return database;
             }
         }
+        
+        /// <summary>
+        /// Constructor.
+        /// </summary>
         public App()
         {
             InitializeComponent();
             MainPage = new MainPage();
         }
 
+        /// <inheritdoc />
         protected override void OnStart()
         {
-            // Handle when your app starts
         }
 
+        /// <inheritdoc />
         protected override void OnSleep()
         {
-            // Handle when your app sleeps
         }
 
+        /// <inheritdoc />
         protected override void OnResume()
         {
-            // Handle when your app resumes
         }
     }
 }
