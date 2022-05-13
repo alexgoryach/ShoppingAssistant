@@ -3,10 +3,19 @@
 <TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:views="clr-namespace:ShopAssistant.Views;assembly=ShopAssistant"
-             x:Class="ShopAssistant.Views.MainPage">
+             x:Class="ShopAssistant.Views.MainPage"
+             xmlns:android="clr-namespace:Xamarin.Forms.PlatformConfiguration.AndroidSpecific;assembly=Xamarin.Forms.Core"
+             android:TabbedPage.ToolbarPlacement="Bottom">
     <TabbedPage.Children>
-        <views:ShoppingListPage />
-        <views:ProductAddingPage />
-        <views:ListOfShoppingListsPage />
+        <NavigationPage Title="Мои покупки">
+            <x:Arguments>
+                <views:ShoppingListPage />
+            </x:Arguments>
+        </NavigationPage>
+        <NavigationPage Title="Карта">
+            <x:Arguments>
+                <views:MapPage />
+            </x:Arguments>
+        </NavigationPage>
     </TabbedPage.Children>
 </TabbedPage>
